@@ -33,7 +33,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <img src={Bonome} alt="React Image" />
+          <img src={Bonome} alt="bonome" />
         </div>
       </div>
       <div className="pt-20 text-center">
