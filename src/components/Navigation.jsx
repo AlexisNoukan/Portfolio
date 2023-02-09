@@ -26,7 +26,7 @@ export default function Navigation() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="#" className="flex items-center">
+        <Link to="/" className="flex items-center">
           Home
         </Link>
       </Typography>
@@ -36,7 +36,7 @@ export default function Navigation() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="#" className="flex items-center">
+        <Link to="/Work" className="flex items-center">
           Past Work
         </Link>
       </Typography>
@@ -46,26 +46,29 @@ export default function Navigation() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="#" className="flex items-center">
+        <Link to="/Knowledge" className="flex items-center">
           Knowledges
         </Link>
       </Typography>
     </ul>
   );
   return (
-    <Navbar className="to-transparent mt-2 mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+    <Navbar className=" mt-2 mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
           variant="small"
           className="mr-4 cursor-pointer py-1.5 font-normal"
         >
-          <span>Alexis Noukan</span>
+          <Link to="/">
+            <span>Alexis Noukan</span>
+          </Link>
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-          <span>Contact</span>
+          <Link to="/Contact">
+            <span>Contact</span>
+          </Link>
         </Button>
         <IconButton
           variant="text"
