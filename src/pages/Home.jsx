@@ -6,16 +6,16 @@ import Bonome from "../assets/home/bonome.webp";
 const Home = () => {
   return (
     <div>
-      <div className=" flex w-screen justify-center   ">
-        <div class="bg-white flex w-1/2 dark:bg-gray-800 pt-20 mt-32 rounded-xl shadow-lg shadow-indigo-500/50  ">
+      <div className=" flex w-screen justify-center  h-screen ">
+        <div class="bg-white flex w-3/6 dark:bg-gray-800  mt-32 rounded-xl shadow-lg shadow-indigo-500/50  ">
           <div class=" w-1/2 mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
             <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-4xl">
               <span class="block text-6xl">I am Alexis</span>
-              <span class="block text-indigo-500">
+              <span class="flex-col text-indigo-500">
                 A front end developper <br /> A backend developper{" "}
               </span>
             </h2>
-            <p class="text-xl mt-4 max-w-md mx-auto text-gray-400">
+            <p class=" mt-4 max-w-md mx-auto text-gray-400">
               I had noticed that both in the very poor and very rich extremes of
               society the mad were often allowed to mingle freely
             </p>
@@ -33,7 +33,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <img src={Bonome} alt="bonome" />
+          <img src={Bonome} alt="bonome" className="w-1/2 object-scale-down" />
         </div>
       </div>
       <div className="pt-20 text-center">
