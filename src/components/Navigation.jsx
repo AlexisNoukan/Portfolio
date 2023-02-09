@@ -19,16 +19,16 @@ export default function Navigation() {
     );
   }, []);
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className=" mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
-        </a>
+        <Link href="#" className="flex items-center">
+          Home
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -36,9 +36,9 @@ export default function Navigation() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Account
-        </a>
+        <Link href="#" className="flex items-center">
+          Past Work
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -46,24 +46,14 @@ export default function Navigation() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Docs
-        </a>
+        <Link href="#" className="flex items-center">
+          Knowledges
+        </Link>
       </Typography>
     </ul>
   );
   return (
-    <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+    <Navbar className="to-transparent mt-2 mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
@@ -71,11 +61,11 @@ export default function Navigation() {
           variant="small"
           className="mr-4 cursor-pointer py-1.5 font-normal"
         >
-          <span>Material Tailwind</span>
+          <span>Alexis Noukan</span>
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-          <span>Buy Now</span>
+          <span>Contact</span>
         </Button>
         <IconButton
           variant="text"
@@ -119,7 +109,7 @@ export default function Navigation() {
         <div className="container mx-auto">
           {navList}
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
+            <span>Contact</span>
           </Button>
         </div>
       </MobileNav>
