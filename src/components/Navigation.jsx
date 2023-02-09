@@ -1,132 +1,98 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-import {
-  Navbar,
-  MobileNav,
-  Typography,
-  Button,
-  IconButton,
-} from "@material-tailwind/react";
 
 export default function Navigation() {
-  const [openNav, setOpenNav] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    );
-  }, []);
-  const navList = (
-    <ul className=" mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link to="/" className="flex items-center">
-          Home
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link to="/Work" className="flex items-center">
-          Past Work
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link to="/Knowledge" className="flex items-center">
-          Knowledges
-        </Link>
-      </Typography>
-    </ul>
-  );
   return (
-    <header>
-      <Navbar className=" w-screen mt-2 mx-auto  py-2 px-4 lg:px-8 lg:py-4 shadow-lg shadow-indigo-500/50">
-        <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            variant="small"
-            className="mr-4 cursor-pointer py-1.5 font-normal"
+    <div>
+      <nav
+        class="
+relative
+w-full
+flex flex-wrap
+items-center
+justify-between
+py-4
+bg-gray-100
+text-gray-500
+hover:text-gray-700
+focus:text-gray-700
+shadow-lg
+navbar navbar-expand-lg navbar-light
+"
+      >
+        <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+          <button
+            class="
+    navbar-toggler
+    text-gray-500
+    border-0
+    hover:shadow-none hover:no-underline
+    py-2
+    px-2.5
+    bg-transparent
+    focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+  "
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <Link to="/">
-              <span>Alexis Noukan</span>
-            </Link>
-          </Typography>
-          <div className="hidden lg:block">{navList}</div>
-          <Button
-            variant="gradient"
-            size="sm"
-            class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
-          >
-            <Link to="/Contact">
-              <span>Contact</span>
-            </Link>
-          </Button>
-          <IconButton
-            variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-            ripple={false}
-            onClick={() => setOpenNav(!openNav)}
-          >
-            {openNav ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                className="h-6 w-6"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            )}
-          </IconButton>
-        </div>
-        <MobileNav open={openNav}>
-          <div className="container mx-auto">
-            {navList}
-            <Button
-              variant="gradient"
-              size="sm"
-              fullWidth
-              class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="bars"
+              class="w-6"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
             >
-              <span>Contact</span>
-            </Button>
+              <path
+                fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow items-center"
+            id="navbarSupportedContent"
+          >
+            <Link class="text-xl text-black" to="/">
+              Navbar
+            </Link>
+            <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+              <li class="nav-item px-2">
+                <Link class="nav-link active" aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
+              <li class="nav-item pr-2">
+                <Link
+                  class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                  to="/"
+                >
+                  Features
+                </Link>
+              </li>
+              <li class="nav-item pr-2">
+                <Link
+                  class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                  to="/"
+                >
+                  Pricing
+                </Link>
+              </li>
+              <li class="nav-item pr-2">
+                <Link to="/" class="nav-link disabled text-gray-300 p-0">
+                  Disabled
+                </Link>
+              </li>
+            </ul>
           </div>
-        </MobileNav>
-      </Navbar>
-    </header>
+        </div>
+      </nav>
+    </div>
   );
 }

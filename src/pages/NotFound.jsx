@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@material-tailwind/react";
 
 export default function NotFound() {
   return (
@@ -15,9 +14,8 @@ export default function NotFound() {
             <p class="font-extrabold text-white text-8xl my-44 animate-bounce">
               404
             </p>
-            <Button>
-              <Link to="/">Return to home</Link>
-            </Button>
+
+            <Link to="/">Return to home</Link>
           </div>
         </div>
       </div>
