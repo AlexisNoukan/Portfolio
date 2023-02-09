@@ -54,7 +54,7 @@ export default function Navigation() {
   );
   return (
     <header>
-      <Navbar className=" w-screen mt-2 mx-auto  py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className=" w-screen mt-2 mx-auto  py-2 px-4 lg:px-8 lg:py-4 shadow-lg shadow-indigo-500/50">
         <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -69,7 +69,7 @@ export default function Navigation() {
           <Button
             variant="gradient"
             size="sm"
-            className="hidden lg:inline-block"
+            class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
           >
             <Link to="/Contact">
               <span>Contact</span>
@@ -116,7 +116,12 @@ export default function Navigation() {
         <MobileNav open={openNav}>
           <div className="container mx-auto">
             {navList}
-            <Button variant="gradient" size="sm" fullWidth className="mb-2">
+            <Button
+              variant="gradient"
+              size="sm"
+              fullWidth
+              class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+            >
               <span>Contact</span>
             </Button>
           </div>
