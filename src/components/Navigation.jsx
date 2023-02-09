@@ -6,7 +6,7 @@ export default function Navigation() {
     <div>
       <nav
         class="
-relative
+
 w-full
 flex flex-wrap
 items-center
