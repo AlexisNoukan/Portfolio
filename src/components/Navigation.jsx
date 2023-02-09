@@ -5,33 +5,32 @@ export default function Navigation() {
   return (
     <div>
       <nav
-        class="
-
-w-full
-flex flex-wrap
-items-center
-justify-between
-py-4
-bg-gray-100
-text-gray-500
-hover:text-gray-700
-focus:text-gray-700
-shadow-lg
-navbar navbar-expand-lg navbar-light
-"
+        className="
+            w-full
+            flex flex-wrap
+            items-center
+            justify-between
+            py-4
+            bg-gray-100
+            text-gray-500
+            hover:text-gray-700
+            focus:text-gray-700
+            shadow-lg
+            navbar navbar-expand-lg navbar-light
+            "
       >
-        <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+        <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6">
           <button
-            class="
-    navbar-toggler
-    text-gray-500
-    border-0
-    hover:shadow-none hover:no-underline
-    py-2
-    px-2.5
-    bg-transparent
-    focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
-  "
+            className="
+                navbar-toggler
+                text-gray-500
+                border-0
+                hover:shadow-none hover:no-underline
+                py-2
+                px-2.5
+                bg-transparent
+                focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+              "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -44,7 +43,7 @@ navbar navbar-expand-lg navbar-light
               focusable="false"
               data-prefix="fas"
               data-icon="bars"
-              class="w-6"
+              className="w-6"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -56,36 +55,36 @@ navbar navbar-expand-lg navbar-light
             </svg>
           </button>
           <div
-            class="collapse navbar-collapse flex-grow items-center"
+            className="collapse navbar-collapse flex-grow items-center"
             id="navbarSupportedContent"
           >
-            <Link class="text-xl text-black" to="/">
+            <Link className="text-xl text-black" to="/">
               Navbar
             </Link>
-            <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
-              <li class="nav-item px-2">
-                <Link class="nav-link active" aria-current="page" to="/">
+            <ul className="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+              <li className="nav-item px-2">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
-              <li class="nav-item pr-2">
+              <li className="nav-item pr-2">
                 <Link
-                  class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                  className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
                   to="/"
                 >
                   Features
                 </Link>
               </li>
-              <li class="nav-item pr-2">
+              <li className="nav-item pr-2">
                 <Link
-                  class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
+                  className="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0"
                   to="/"
                 >
                   Pricing
                 </Link>
               </li>
-              <li class="nav-item pr-2">
-                <Link to="/" class="nav-link disabled text-gray-300 p-0">
+              <li className="nav-item pr-2">
+                <Link to="/" className="nav-link disabled text-gray-300 p-0">
                   Disabled
                 </Link>
               </li>
