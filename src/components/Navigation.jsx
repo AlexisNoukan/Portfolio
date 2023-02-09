@@ -32,9 +32,10 @@ export default function Navigation() {
             py-4
             bg-gray-100
             text-gray-500
-            hover:text-gray-700
-            focus:text-gray-700
-            shadow-lg
+            dark:bg-gray-800
+            dark:decoration-sky-500
+            shadow-lg shadow-indigo-500/50
+            hover:dark:decoration-white hover:decoration-white
             "
       >
         <div className=" w-full flex items-center justify-between px-6">
@@ -75,9 +76,9 @@ export default function Navigation() {
               </li>
             </ul>
           </div>
-          <div className=" flex gap-5 items-center ">
+          <div className=" flex gap-5 items-center  ">
             <div>
-              <Link to="/Contact">Contact now</Link>
+              <Link to="/Contact" >Contact now</Link>
             </div>
             <div>
               <label className="swap swap-rotate">

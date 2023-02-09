@@ -38,18 +38,23 @@ const Home = () => {
       </div>
       <div className="pt-20 text-center">
         <div>
-          <div className="title">
+          <div className="title font-bold text-lg">
             <h2>What i do</h2>
           </div>
-          <div className="flex justify-center items-center gap-3">
-            <div>
-              <p>section1</p>
+          <div className="flex justify-center  gap-4 p-5">
+            <div className="w-1/3 p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg shadow-indigo-500/50">
+              <h2>Front end Developpement</h2>
+              <p>I make all the front end with React and Tailwind CSS.</p>
             </div>
-            <div>
-              <p>section2</p>
+            <div className="w-1/3 p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg shadow-indigo-500/50">
+              <h2>Wed Design (A little)</h2>
+              <p>I make basic design for website inspired by existent design.
+                I am not a web designer but i try to make my best.
+              </p>
             </div>
-            <div>
-              <p>section3</p>
+            <div className="w-1/3 p-5 bg-white dark:bg-gray-800 rounded-xl shadow-lg shadow-indigo-500/50">
+              <h2>Back end Developpement</h2>
+              <p>I make all the back end and create the api between the front and the back to make dynamic website.</p>
             </div>
           </div>
         </div>
