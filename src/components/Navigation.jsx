@@ -21,7 +21,7 @@ export default function Navigation() {
             id="navbarSupportedContent"
           >
             <div className="logo">
-              <Link to="/" className="text-xl text-black">
+              <Link to="/" className="ttext-xl text-black font-semibold">
                 Alexis Noukan
               </Link>
             </div>
