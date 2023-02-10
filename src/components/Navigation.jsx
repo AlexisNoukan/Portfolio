@@ -76,8 +76,8 @@ export default function Navigation() {
               </li>
             </ul>
           </div>
-          <div className=" flex gap-5 items-center  ">
-            <div>
+          <div className=" flex gap-5 items-center   ">
+            <div className="btn bg-indigo-600">
               <Link to="/Contact">Contact now</Link>
             </div>
             <div>
@@ -86,7 +86,7 @@ export default function Navigation() {
                   type="checkbox"
                   checked={darkMode}
                   onChange={changeTheme}
-                />{" "}
+                />
                 <svg
                   className="swap-on fill-current w-10 h-10"
                   xmlns="http://www.w3.org/2000/svg"
