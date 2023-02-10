@@ -77,9 +77,12 @@ export default function Navigation() {
             </ul>
           </div>
           <div className=" flex gap-5 items-center   ">
-            <div className="btn bg-indigo-600">
-              <Link to="/Contact">Contact now</Link>
-            </div>
+            <Link to="/Contact">
+              {" "}
+              <button className="btn bg-indigo-600">
+                <span>Contact now</span>{" "}
+              </button>
+            </Link>
             <div>
               <label className="swap swap-rotate">
                 <input
