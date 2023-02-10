@@ -78,9 +78,8 @@ export default function Navigation() {
           </div>
           <div className=" flex gap-5 items-center   ">
             <Link to="/Contact">
-              {" "}
               <button className="btn bg-indigo-600">
-                <span>Contact now</span>{" "}
+                <span>Contact now</span>
               </button>
             </Link>
             <div>
