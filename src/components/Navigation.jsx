@@ -78,7 +78,7 @@ export default function Navigation() {
           </div>
           <div className=" flex gap-5 items-center  ">
             <div>
-              <Link to="/Contact" >Contact now</Link>
+              <Link to="/Contact">Contact now</Link>
             </div>
             <div>
               <label className="swap swap-rotate">
