@@ -8,7 +8,7 @@ const Home = () => {
         <div className="  py-[10%] px-[10%]">
           <article>
             <p className="text-3xl">Hi! I am</p>
-            <h1 className="font-bold text-8xl"> Alexis NOUKAN</h1>
+            <h1 className="font-bold text-8xl sm:text-2xl"> Alexis NOUKAN</h1>
             <h2 className="text-5xl">A front end developper</h2>
             <h2 className="text-5xl">A backend developper</h2>
           </article>
