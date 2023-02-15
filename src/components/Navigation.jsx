@@ -14,7 +14,7 @@ export default function Navigation() {
         <div className=" w-full flex items-center justify-between px-6">
           <div className=" flex items-center justify-between">
             <div className="logo">
-              <a href="#Home" className="ttext-xl text-black font-semibold">
+              <a href="#Home" className="ttext-xl font-semibold">
                 <span className="text-2xl">AN</span>
               </a>
             </div>
