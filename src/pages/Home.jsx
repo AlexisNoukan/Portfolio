@@ -1,12 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Project from "./Project";
-import Knowledge from "./Knowledge";
-import Contact from "./Contact";
 
 const Home = () => {
   return (
-    <main>
+    <div>
       <section id="Home" className="min-h-screen  ">
         <div className="  py-[10%] px-[10%]">
           <article className=" flex flex-col gap-3">
@@ -14,10 +10,18 @@ const Home = () => {
             <h1 className="font-bold text-8xl "> Alexis NOUKAN</h1>
             <h2 className="text-5xl">A front end developper</h2>
             <h2 className="text-5xl">A backend developper</h2>
+            <a
+              href="./assets/CV_AlexisNoukan.pdf"
+              download
+              className="btn w-[20%] py-2 px-8"
+            >
+              Resume
+            </a>
           </article>
         </div>
       </section>
       <section className="flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] w-[100%] px-[10%]">
+        <h2>What can I do ?</h2>
         <div className="flex gap-2 ">
           <article className="w-[30%]">
             <h2>Front end Developpement</h2>
@@ -41,20 +45,14 @@ const Home = () => {
           </article>
         </div>
         <div className="pt-5 w-[30%]">
-          <Link to="/Project">
-            <div className=" rounded-md p-1 text-center bg-slate-300">
-              <span className="text-black ">Project</span>
+          <a href="#Project">
+            <div className=" btn py-2 px-8  p-1 text-center ">
+              <span>Project</span>
             </div>
-          </Link>
+          </a>
         </div>
       </section>
-      <section className="min-h-screen">
-        <div className=" py-[10%] px-[10%]">about me</div>
-      </section>
-      <Project />
-      <Knowledge />
-      <Contact />
-    </main>
+    </div>
   );
 };
 

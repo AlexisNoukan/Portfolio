@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Navigation() {
   return (
@@ -8,7 +7,7 @@ export default function Navigation() {
         className="
             w-full
             p-6
-            text-gray-500
+            bg-[#112f5a]
             "
       >
         <div className=" w-full flex items-center justify-between px-6">
@@ -27,6 +26,11 @@ export default function Navigation() {
                 </a>
               </li>
               <li className="px-2">
+                <a href="#Knowledge">
+                  <span>About Me</span>
+                </a>
+              </li>
+              <li className="px-2">
                 <a href="#Project">
                   <span>Project</span>
                 </a>
@@ -39,7 +43,7 @@ export default function Navigation() {
             </ul>{" "}
             <div className=" flex gap-5 items-center   ">
               <a href="#Contact">
-                <button className="btn bg-indigo-600">
+                <button className="btn py-2 px-8">
                   <span>Contact now</span>
                 </button>
               </a>

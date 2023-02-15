@@ -6,10 +6,10 @@ export default function Contact() {
       <section className="text-gray-700 body-font min-h-screen relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+            <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 ">
               Contact Me
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-black">
+            </h2>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
               Let's work together
             </p>
           </div>
@@ -60,8 +60,8 @@ export default function Contact() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Button
+                <button className="flex mx-auto btn  border-0 py-2 px-8 focus:outline-none rounded text-lg">
+                  <span>Send</span>
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
