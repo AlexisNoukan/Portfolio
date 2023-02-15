@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Project from "./Project";
+import Knowledge from "./Knowledge";
 import Contact from "./Contact";
 
 const Home = () => {
@@ -49,6 +51,8 @@ const Home = () => {
       <section className="min-h-screen">
         <div className=" py-[10%] px-[10%]">about me</div>
       </section>
+      <Project />
+      <Knowledge />
       <Contact />
     </main>
   );
