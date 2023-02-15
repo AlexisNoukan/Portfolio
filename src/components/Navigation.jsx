@@ -58,11 +58,11 @@ export default function Navigation() {
               </li>
               <li className="nav-item px-2">
                 <Link
-                  to="/Work"
+                  to="/Project"
                   className="nav-link active"
                   aria-current="page"
                 >
-                  <span>Past Work</span>
+                  <span>Project</span>
                 </Link>
               </li>
               <li className="nav-item px-2">
