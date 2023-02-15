@@ -7,34 +7,34 @@ export default function Navigation() {
       <nav
         className="
             w-full
-            py-4
+            p-6
             text-gray-500
             "
       >
         <div className=" w-full flex items-center justify-between px-6">
           <div className=" flex items-center justify-between">
             <div className="logo">
-              <Link to="/" className="ttext-xl text-black font-semibold">
+              <a href="#Home" className="ttext-xl text-black font-semibold">
                 <span className="text-2xl">AN</span>
-              </Link>
+              </a>
             </div>
           </div>
           <div className="flex items-center gap-4">
             <ul className="flex items-center justify-center gap-4 list-style-none ">
               <li className="px-2">
-                <Link to="/" className="nav-link active" aria-current="page">
+                <a href="#Home" className="nav-link active" aria-current="page">
                   <span>Home</span>
-                </Link>
+                </a>
               </li>
               <li className="px-2">
-                <Link to="/Project">
+                <a href="#Project">
                   <span>Project</span>
-                </Link>
+                </a>
               </li>
               <li className="px-2">
-                <Link to="/Knowledge">
+                <a href="#Knowledge">
                   <span>Knowledge</span>
-                </Link>
+                </a>
               </li>
             </ul>{" "}
             <div className=" flex gap-5 items-center   ">

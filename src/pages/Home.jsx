@@ -5,7 +5,7 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <main>
-      <section className="min-h-screen  ">
+      <section id="Home" className="min-h-screen  ">
         <div className="  py-[10%] px-[10%]">
           <article className=" flex flex-col gap-3">
             <p className="text-3xl">Hi! I am</p>
@@ -15,7 +15,7 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <section className="flex bg-white flex-wrap gap-2 min-h-screen">
+      <section className="flex  flex-wrap gap-2 min-h-screen">
         <div className="py-[10%] w-[100%] px-[10%]">
           <article className="w-[20%]">
             <h2>Front end Developpement</h2>
@@ -23,14 +23,14 @@ const Home = () => {
               I make all the front end with React and Tailwind CSS.
             </p>
           </article>
-          <article className="w-[20%]">
+          <article>
             <h2>Wed Design (A little)</h2>
             <p className="pt-4">
               I make basic design for website inspired by existent design. I am
               not a web designer but i try my best.
             </p>
           </article>
-          <article className="w-[20%]">
+          <article>
             <h2>Back end Developpement</h2>
             <p className="pt-4">
               I make all the back end and create the api between the front and
