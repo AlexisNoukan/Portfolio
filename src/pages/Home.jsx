@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -14,8 +15,8 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <section className="flex flex-wrap gap-2 min-h-screen">
-        <div className="py-[10%] px-[10%]">
+      <section className="flex bg-white flex-wrap gap-2 min-h-screen">
+        <div className="py-[10%] w-[100%] px-[10%]">
           <article className="w-[20%]">
             <h2>Front end Developpement</h2>
             <p className="pt-4">
@@ -38,17 +39,17 @@ const Home = () => {
           </article>
           <div className="pt-5">
             <Link to="/Project">
-              <div className=" w-1/3 rounded-md p-1 text-center bg-slate-300">
-                <span>Project</span>
-              </div>{" "}
+              <div className=" rounded-md p-1 text-center bg-slate-300">
+                <span className="text-black ">Project</span>
+              </div>
             </Link>
           </div>
         </div>
       </section>
-      <p>i</p>
       <section className="min-h-screen">
         <div className=" py-[10%] px-[10%]">about me</div>
       </section>
+      <Contact />
     </main>
   );
 };

@@ -38,11 +38,11 @@ export default function Navigation() {
               </li>
             </ul>{" "}
             <div className=" flex gap-5 items-center   ">
-              <Link to="/Contact">
+              <a href="#Contact">
                 <button className="btn bg-indigo-600">
                   <span>Contact now</span>
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
