@@ -30,11 +30,9 @@ export default function Navigation() {
         className="
             w-full
             py-4
-            bg-gray-100
             text-gray-500
             dark:bg-gray-800
             dark:decoration-sky-500
-            shadow-lg shadow-indigo-500/50
             hover:dark:decoration-white hover:decoration-white
             "
       >
