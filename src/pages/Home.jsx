@@ -23,20 +23,20 @@ const Home = () => {
       <section className="flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] w-[100%] px-[10%]">
         <h2>What can I do ?</h2>
         <div className="flex gap-2 ">
-          <article className="w-[30%]">
+          <article className="w-[30%] border-2 rounded-md p-4 border-white">
             <h2>Front end Developpement</h2>
             <p className="pt-4">
               I make all the front end with React and Tailwind CSS.
             </p>
           </article>
-          <article className="w-[30%]">
+          <article className="w-[30%] border-2 rounded-md p-4 border-white">
             <h2>Wed Design (A little)</h2>
             <p className="pt-4">
               I make basic design for website inspired by existent design. I am
               not a web designer but i try my best.
             </p>
           </article>
-          <article className="w-[30%]">
+          <article className="w-[30%] border-2 rounded-md p-4 border-white">
             <h2>Back end Developpement</h2>
             <p className="pt-4">
               I make all the back end and create the api between the front and
