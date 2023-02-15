@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import Work from "./pages/Work";
+import Project from "./pages/Project";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Work" element={<Work />} />
+        <Route path="/Project" element={<Project />} />
         <Route path="/Knowledge" element={<Knowledge />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
