@@ -10,7 +10,12 @@ const Home = () => {
             <p className="text-3xl">Hi! I am</p>
             <h1 className="font-bold text-8xl "> Alexis NOUKAN</h1>
             <h2 className="text-5xl">A Fullstack Developper</h2>
-            <a href={CV} target="_blank" className="btn w-[20%] py-2 px-8">
+            <a
+              href={CV}
+              target="_blank"
+              rel="noreferrer"
+              className="btn w-[20%] py-2 px-8"
+            >
               Get my Resume
             </a>
           </article>

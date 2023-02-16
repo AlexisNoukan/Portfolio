@@ -48,7 +48,11 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <a href="https://github.com/AlexisNoukan" target="_blank">
+        <a
+          href="https://github.com/AlexisNoukan"
+          rel="noreferrer"
+          target="_blank"
+        >
           <div className=" btn py-2 px-8  p-1 text-center ">
             <span>See my GitHub</span>
           </div>
