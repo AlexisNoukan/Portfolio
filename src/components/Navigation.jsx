@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Navigation() {
   return (
@@ -7,7 +7,6 @@ export default function Navigation() {
         className="
             w-full
             p-6
-            bg-white
             "
       >
         <div className=" w-full flex items-center justify-between px-6">
