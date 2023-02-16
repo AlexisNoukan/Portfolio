@@ -67,10 +67,7 @@ export default function Contact() {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a
-                  className="text-indigo-500"
-                  href="mailto:alexisnoukan@gmail.com"
-                >
+                <a href="mailto:alexisnoukan@gmail.com">
                   alexisnoukan@gmail.com
                 </a>
               </div>
