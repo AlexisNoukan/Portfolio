@@ -19,7 +19,7 @@ const Home = () => {
           </article>
         </div>{" "}
       </section>{" "}
-      <section className="back-blue flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] w-[100%] px-[10%]">
+      <section className=" flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] w-[100%] px-[10%]">
         <h2 className="text-3xl">What can I do ?</h2>
 
         <div className="flex justify-center gap-2 text-slate-600">
