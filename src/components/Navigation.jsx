@@ -7,14 +7,14 @@ export default function Navigation() {
         className="
             w-full
             p-6
-            bg-[#112f5a]
+            bg-white
             "
       >
         <div className=" w-full flex items-center justify-between px-6">
           <div className=" flex items-center justify-between">
             <div className="logo">
               <a href="#Home" className="ttext-xl font-semibold">
-                <span className="text-2xl">AN</span>
+                <span className="border-2 rounded-full p-2 text-2xl">AN</span>
               </a>
             </div>
           </div>
