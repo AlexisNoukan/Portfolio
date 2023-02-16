@@ -1,20 +1,7 @@
 import React from "react";
+import CV from "../assets/resume.pdf";
 
 const Home = () => {
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch("resume.pdf").then((response) => {
-      response.blob().then((blob) => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "Cv_AlexisNoukan.pdf";
-        alink.click();
-      });
-    });
-  };
   return (
     <div>
       <section id="Home" className="min-h-screen  ">
@@ -23,9 +10,9 @@ const Home = () => {
             <p className="text-3xl">Hi! I am</p>
             <h1 className="font-bold text-8xl "> Alexis NOUKAN</h1>
             <h2 className="text-5xl">A Fullstack Developper</h2>
-            <button onClick={onButtonClick} className="btn w-[20%] py-2 px-8">
+            <a href={CV} target="_blank" className="btn w-[20%] py-2 px-8">
               Get my Resume
-            </button>
+            </a>
           </article>
         </div>{" "}
       </section>{" "}
