@@ -7,63 +7,52 @@ export default function Work() {
         <h2 className="text-3xl ">Project</h2>
         <div className="flex gap-4 text-slate-600">
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-              />
-            </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Shoes!
+                Bookie
                 <div className="badge badge-secondary">NEW</div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>This is a project made in my formation</p>
+              <p>A resservation website</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
+                <div className="badge badge-outline">Html</div>
+                <div className="badge badge-outline">Css</div>
               </div>
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-              />
-            </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Shoes!
+                Riding Cities
                 <div className="badge badge-secondary">NEW</div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>This is a project made in my formation</p>
+              <p>Adding features to an existent website</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
+                <div className="badge badge-outline">Html</div>
+                <div className="badge badge-outline">Css</div>
               </div>
             </div>
           </div>
           <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-              />
-            </figure>
             <div className="card-body">
               <h2 className="card-title">
-                Shoes!
+                This Portfolio
                 <div className="badge badge-secondary">NEW</div>
               </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <p>This is my actual portfolio</p>
               <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
+                <div className="badge badge-outline">React</div>
+                <div className="badge badge-outline">Tailwind CSS</div>
               </div>
             </div>
           </div>
         </div>
+        <a href="https://github.com/AlexisNoukan" target="_blank">
+          <div className=" btn py-2 px-8  p-1 text-center ">
+            <span>See my GitHub</span>
+          </div>
+        </a>
       </div>
     </section>
   );
