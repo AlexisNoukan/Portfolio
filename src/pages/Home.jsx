@@ -24,14 +24,14 @@ const Home = () => {
       <section className=" flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] w-[100%] px-[10%]">
         <h2 className="text-3xl">What can I do ?</h2>
 
-        <div className="flex justify-center gap-2 text-slate-600">
-          <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="flex justify-center gap-2 text-slate-600 ">
+          <div className="card w-96  shadow-xl bg-white">
             <div className="card-body">
               <h2 className="card-title">Front end Developpement</h2>
               <p>II make all the front end with React and Tailwind CSS.</p>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card w-96  shadow-xl bg-white">
             <div className="card-body">
               <h2 className="card-title">Wed Design (A little)</h2>
               <p>
@@ -40,7 +40,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card w-96  shadow-xl bg-white">
             <div className="card-body">
               <h2 className="card-title">Back end Developpement</h2>
               <p>
