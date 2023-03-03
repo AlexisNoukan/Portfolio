@@ -7,7 +7,6 @@ import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Knowledge from "./pages/Knowledge";
 
-
 function App() {
   return (
     <>
