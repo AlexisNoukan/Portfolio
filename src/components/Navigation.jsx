@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <div className="navbar ">
+    <header className="navbar bg-[#202731] ">
       <div className="navbar-start">
         <div className="dropdown">
           <a className="border-2 rounded-full p-2 normal-case text-xl ">AN</a>
@@ -27,11 +27,19 @@ const Navigation = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-500 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <a href="#home">Home</a>
             </li>
-
             <li>
-              <a>Skills</a>
+              <a href="#Do">What can I do ?</a>
+            </li>
+            <li>
+              <a href="#About">Who I am ?</a>
+            </li>
+            <li>
+              <a href="#Project">Projects</a>
+            </li>
+            <li>
+              <a href="#Skills">Skills</a>
             </li>
           </ul>
         </div>
@@ -41,16 +49,26 @@ const Navigation = () => {
           <li>
             <a>Home</a>
           </li>
-
           <li>
-            <a>Skills</a>
+            <a href="#Do">What can I do ?</a>
+          </li>
+          <li>
+            <a href="#About">Who I am ?</a>
+          </li>
+          <li>
+            <a href="#Project">Projects</a>
+          </li>
+          <li>
+            <a href="#Skills">Skills</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Contact Me</a>
+        <a href="#Contact" className="btn">
+          Contact Me
+        </a>
       </div>
-    </div>
+    </header>
   );
 };
 

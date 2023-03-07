@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Knowledge() {
   return (
-    <div id="Knowledge" className="min-h-screen">
+    <div id="Skills" className="min-h-screen">
       <div className="py-[10%] px-[10%] flex items-center flex-col gap-5">
-        <h2>My Skils</h2>
+        <h2>My Skills</h2>
         <div className="flex justify-between gap-5">
           <div className="flex flex-col gap-5 pt-5">
             <progress

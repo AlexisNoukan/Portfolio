@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="min-h-screen">
+    <section id="About" className="min-h-screen">
       <div className=" py-[10%] px-[10%]">
         <div>
           <h2>My name is Alexis Noukan</h2>
