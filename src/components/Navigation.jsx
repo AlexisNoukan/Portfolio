@@ -5,7 +5,12 @@ const Navigation = () => {
     <header className="navbar bg-[#202731] ">
       <div className="navbar-start">
         <div className="dropdown">
-          <a className="border-2 rounded-full p-2 normal-case text-xl ">AN</a>
+          <a
+            href="#home"
+            className="border-2 rounded-full p-2 normal-case text-xl "
+          >
+            AN
+          </a>
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +52,7 @@ const Navigation = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="#Do">What can I do ?</a>
