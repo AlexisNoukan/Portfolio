@@ -1,23 +1,29 @@
-import React from "react";
+import React from "react"
+import Picture from "../assets/about/picture.jpg"
 
 const AboutMe = () => {
   return (
     <section id="About" className="min-h-screen">
-      <div className=" py-[10%] px-[10%]">
-        <div>
-          <h2>My name is Alexis Noukan</h2>
-          <p>
-            I'm 20 years old. I am a passionate of programation and new
-            technologie.{" "}
-          </p>
-          <p>
-            I have study code on my own and now I do a formation with
-            Openclassrooms to become a Front-End Developper
-          </p>
+      <div className="hero ">
+        <div className="hero-content flex-col lg:flex-row">
+          <img
+            src={Picture}
+            className="max-w-sm rounded-lg shadow-2xl"
+            alt="me"
+          />
+          <div>
+            <h2 className="text-5xl font-bold">Alexis Noukan</h2>
+            <p className="py-6">
+              Hello,
+              <br />I am Alexis a Fullstack Software Developper.
+              <br />I am passionate about nexw technologie ang programing.
+            </p>
+            <button className="btn btn-primary">Get Started</button>
+          </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

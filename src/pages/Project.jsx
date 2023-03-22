@@ -1,16 +1,21 @@
 import React from "react"
 import Bookie from "../assets/project/Bookie.png"
+import Twitter from "../assets/project/twitter-clone.png"
+import Portfolio from "../assets/project/personal-portfolio.png"
 
 export default function Work() {
   return (
-    <section id="Project" className="min-h-screen ">
-      <h1>Projects</h1>
+    <section
+      id="Project"
+      className="min-h-screen flex flex-col justify-center items-center"
+    >
+      <h2 className="text-bold text-2xl">Projects</h2>
       <div className="py-[10%] px-[10%] flex flex-col lg:flex-row justify-center items-center gap-10">
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-200 shadow-xl">
           <figure>
-            <img src={Bookie} alt="Shoes" />
+            <img src={Bookie} alt="Bookie" />
           </figure>
-          <div className="card-body">
+          <div className="card-body text-slate-600 ">
             <h2 className="card-title">
               Bookie
               <div className="badge badge-secondary">NEW</div>
@@ -22,11 +27,11 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-200 shadow-xl">
           <figure>
-            <img src="" alt="Shoes" />
+            <img src={Twitter} alt="Twitter Clone" />
           </figure>
-          <div className="card-body">
+          <div className="card-body text-slate-600 ">
             <h2 className="card-title">
               Twitter
               <div className="badge badge-secondary">NEW</div>
@@ -39,11 +44,11 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-200 shadow-xl ">
           <figure>
-            <img src="" alt="Shoes" />
+            <img src={Portfolio} alt="Personal Portfolio" />
           </figure>
-          <div className="card-body">
+          <div className="card-body text-slate-600 ">
             <h2 className="card-title">
               Alexis Noukan
               <div className="badge badge-secondary">NEW</div>

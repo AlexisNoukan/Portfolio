@@ -1,5 +1,6 @@
 import React from "react"
 import CV from "../assets/home/resume.pdf"
+import { ArrowDownTrayIcon } from "@heroicons/react/24/outline"
 
 const Home = () => {
   return (
@@ -10,13 +11,15 @@ const Home = () => {
             <p className="text-3xl">Hi! I am</p>
             <h1 className="font-bold text-8xl "> Alexis NOUKAN</h1>
             <h2 className="text-5xl">A Fullstack Developper</h2>
+
             <a
               href={CV}
               target="_blank"
               rel="noreferrer"
-              className="btn w-[20%] py-2 px-8"
+              className="btn w-[20%] py-2 px-8 flex items-center space-x-4"
             >
-              Get my Resume
+              <ArrowDownTrayIcon className="h-7 w-7" />
+              <span>Get my Resume</span>
             </a>
           </article>
         </div>{" "}
