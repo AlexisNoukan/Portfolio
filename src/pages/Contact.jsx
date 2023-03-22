@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useRef } from "react"
+
+import emailjs from "@emailjs/browser"
 
 export default function Contact() {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        "Portfolio",
+        "template_fij95ni",
+        form.current,
+        "sGw-WU47jGt-GTBq2"
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+  }
   return (
     <div id="Contact">
       <section className="body-font min-h-screen relative ">
@@ -13,12 +36,16 @@ export default function Contact() {
               Let's work together
             </p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="lg:w-1/2 md:w-2/3 mx-auto"
+          >
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label
-                    for="name"
+                    htmlFor="name"
                     className="leading-7 text-sm
                   "
                   >
@@ -27,15 +54,17 @@ export default function Contact() {
                   <input
                     type="text"
                     id="name"
-                    name="name"
+                    name="user_name"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none t py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    required
+                    placeholder=" Your name"
                   />
                 </div>
               </div>
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="leading-7 text-sm 
                     "
                   >
@@ -44,25 +73,32 @@ export default function Contact() {
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="user_email"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    required
+                    placeholder=" Your name"
                   />
                 </div>
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label for="message" className="leading-7 text-sm ">
+                  <label htmlFor="message" className="leading-7 text-sm ">
                     Message
                   </label>
                   <textarea
                     id="message"
                     name="message"
+                    placeholder=" Your name"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none  py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto btn  border-0 py-2 px-8 focus:outline-none rounded text-lg">
+                <button
+                  type="submit"
+                  value="Send"
+                  className="flex mx-auto btn  border-0 py-2 px-8 focus:outline-none rounded text-lg"
+                >
                   <span>Send</span>
                 </button>
               </div>
@@ -72,9 +108,9 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </section>
     </div>
-  );
+  )
 }
