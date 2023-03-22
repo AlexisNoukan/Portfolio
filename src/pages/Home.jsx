@@ -1,6 +1,12 @@
 import React from "react"
 import CV from "../assets/home/resume.pdf"
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline"
+import GitLab from "../assets/home/gitlab-logo-500.png"
+import Next from "../assets/home/nextjs-2.svg"
+import ReactIcon from "../assets/home/icons8-react-80.png"
+import Tailwind from "../assets/home/tailwind-css-icon.svg"
+import Nest from "../assets/home/file_type_nestjs_icon_130355.png"
+import Mongo from "../assets/home/mongodb_original_wordmark_logo_icon_146425.png"
 
 const Home = () => {
   return (
@@ -23,6 +29,38 @@ const Home = () => {
             </a>
           </article>
         </div>{" "}
+        <div className="flex justify-center space-x-10">
+          <img
+            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
+            src={GitLab}
+            alt="GitLab"
+          />
+          <img
+            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
+            src={Next}
+            alt="GitLab"
+          />
+          <img
+            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
+            src={ReactIcon}
+            alt="GitLab"
+          />
+          <img
+            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
+            src={Tailwind}
+            alt="GitLab"
+          />
+          <img
+            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
+            src={Nest}
+            alt="GitLab"
+          />
+          <img
+            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
+            src={Mongo}
+            alt="GitLab"
+          />
+        </div>
       </section>{" "}
       <section
         id="Do"
