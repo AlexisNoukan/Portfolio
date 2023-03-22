@@ -38,27 +38,27 @@ const Home = () => {
           <img
             className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
             src={Next}
-            alt="GitLab"
+            alt="NextJS"
           />
           <img
             className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
             src={ReactIcon}
-            alt="GitLab"
+            alt="React"
           />
           <img
             className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
             src={Tailwind}
-            alt="GitLab"
+            alt="TailwindCSS"
           />
           <img
             className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
             src={Nest}
-            alt="GitLab"
+            alt="NestJS"
           />
           <img
             className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
             src={Mongo}
-            alt="GitLab"
+            alt="MongoDB"
           />
         </div>
       </section>{" "}
