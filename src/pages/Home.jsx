@@ -1,5 +1,5 @@
-import React from "react";
-import CV from "../assets/resume.pdf";
+import React from "react"
+import CV from "../assets/home/resume.pdf"
 
 const Home = () => {
   return (
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

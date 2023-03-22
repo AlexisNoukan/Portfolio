@@ -1,97 +1,61 @@
-import React from "react";
+import React from "react"
+import Bookie from "../assets/project/Bookie.png"
 
 export default function Work() {
   return (
     <section id="Project" className="min-h-screen ">
-      <div className="py-[10%] px-[10%] flex flex-col justify-center items-center gap-10">
-        <h2 className="text-3xl ">Project</h2>
-        <div className="flex gap-4 text-slate-600">
-          <div className="card w-96 shadow-xl bg-white">
-            <div className="card-body">
-              <h2 className="card-title">
-                Bookie
-                <div className="badge badge-secondary">NEW</div>
-              </h2>
-              <p>This is a project made in my formation</p>
-              <p>A resservation website</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Html</div>
-                <div className="badge badge-outline">Css</div>
-              </div>
-            </div>
-          </div>
-          <div className="card w-96 shadow-xl bg-white">
-            <div className="card-body">
-              <h2 className="card-title">
-                Riding Cities
-                <div className="badge badge-secondary">NEW</div>
-              </h2>
-              <p>This is a project made in my formation</p>
-              <p>Adding features to an existent website</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Html</div>
-                <div className="badge badge-outline">Css</div>
-              </div>
-            </div>
-          </div>
-          <div className="card w-96 shadow-xl bg-white">
-            <div className="card-body">
-              <h2 className="card-title">
-                This Portfolio
-                <div className="badge badge-secondary">NEW</div>
-              </h2>
-              <p>This is my actual portfolio</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">React</div>
-                <div className="badge badge-outline">Tailwind CSS</div>
-              </div>
+      <h1>Projects</h1>
+      <div className="py-[10%] px-[10%] flex flex-col lg:flex-row justify-center items-center gap-10">
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img src={Bookie} alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Shoes!
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Fashion</div>
+              <div className="badge badge-outline">Products</div>
             </div>
           </div>
         </div>
-        <div className="flex gap-4 text-slate-600">
-          <div className="card w-96 shadow-xl bg-white">
-            <div className="card-body">
-              <h2 className="card-title">
-                Bookie
-                <div className="badge badge-secondary">NEW</div>
-              </h2>
-              <p>This is a project made in my formation</p>
-              <p>A resservation website</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Html</div>
-                <div className="badge badge-outline">Css</div>
-              </div>
-            </div>
-          </div>
-          <div className="card w-96 shadow-xl bg-white">
-            <div className="card-body">
-              <h2 className="card-title">
-                Riding Cities
-                <div className="badge badge-secondary">NEW</div>
-              </h2>
-              <p>This is a project made in my formation</p>
-              <p>Adding features to an existent website</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Html</div>
-                <div className="badge badge-outline">Css</div>
-              </div>
-            </div>
-          </div>
-          <div className="card w-96 shadow-xl bg-white">
-            <div className="card-body">
-              <h2 className="card-title">
-                This Portfolio
-                <div className="badge badge-secondary">NEW</div>
-              </h2>
-              <p>This is my actual portfolio</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">React</div>
-                <div className="badge badge-outline">Tailwind CSS</div>
-              </div>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img src="" alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Shoes!
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Fashion</div>
+              <div className="badge badge-outline">Products</div>
             </div>
           </div>
         </div>
-
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img src="" alt="Shoes" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              Shoes!
+              <div className="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Fashion</div>
+              <div className="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
         <a
           href="https://github.com/AlexisNoukan"
           rel="noreferrer"
@@ -103,5 +67,5 @@ export default function Work() {
         </a>
       </div>
     </section>
-  );
+  )
 }
