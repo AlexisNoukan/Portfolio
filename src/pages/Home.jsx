@@ -1,5 +1,6 @@
 import React from "react"
 import CV from "../assets/home/resume.pdf"
+import CVEN from "../assets/home/Alexis_NOUKAN_CV_EN.pdf"
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline"
 import GitLab from "../assets/home/gitlab-logo-500.png"
 import Next from "../assets/home/nextjs-2.svg"
@@ -17,16 +18,26 @@ const Home = () => {
             <p className="text-3xl">Hi! I am</p>
             <h1 className="font-bold text-6xl md:text-8xl "> Alexis NOUKAN</h1>
             <h2 className="text-5xl">A Fullstack Software Developper</h2>
-
-            <a
-              href={CV}
-              target="_blank"
-              rel="noreferrer"
-              className="btn w-80 py-2 px-8 flex items-center space-x-4"
-            >
-              <ArrowDownTrayIcon className="h-7 w-7" />
-              <span>Get my Resume</span>
-            </a>
+            <div className="flex flex-col md:flex-row gap-2">
+              <a
+                href={CV}
+                target="_blank"
+                rel="noreferrer"
+                className="btn w-80 py-2 px-8 flex items-center space-x-4"
+              >
+                <ArrowDownTrayIcon className="h-7 w-7" />
+                <span>Get my Resume (FR)</span>
+              </a>
+              <a
+                href={CVEN}
+                target="_blank"
+                rel="noreferrer"
+                className="btn w-80 py-2 px-8 flex items-center space-x-4"
+              >
+                <ArrowDownTrayIcon className="h-7 w-7" />
+                <span>Get my Resume (EN)</span>
+              </a>
+            </div>
           </article>
         </div>{" "}
         <div className="flex flex-col md:flex-row justify-center items-center gap-4  md:space-x-10 ">

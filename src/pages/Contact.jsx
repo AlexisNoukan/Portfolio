@@ -10,7 +10,7 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "Portfolio",
+        "service_zzwc5fi",
         "template_fij95ni",
         form.current,
         "sGw-WU47jGt-GTBq2"
@@ -39,7 +39,7 @@ export default function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="lg:w-1/2 md:w-2/3 mx-auto"
+            className="lg:w-1/2 md:w-2/3 mx-auto "
           >
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
@@ -55,7 +55,7 @@ export default function Contact() {
                     type="text"
                     id="name"
                     name="user_name"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none t py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full text-black bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none t py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                     placeholder=" Your name"
                   />
@@ -74,7 +74,7 @@ export default function Contact() {
                     type="email"
                     id="email"
                     name="user_email"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full text-black bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none  py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     required
                     placeholder=" Your name"
                   />
@@ -89,7 +89,7 @@ export default function Contact() {
                     id="message"
                     name="message"
                     placeholder=" Your name"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none  py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full text-black bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none  py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
