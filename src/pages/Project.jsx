@@ -12,13 +12,13 @@ export default function Work() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Shoes!
+              Bookie
               <div className="badge badge-secondary">NEW</div>
             </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>This is one of my school project</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Fashion</div>
-              <div className="badge badge-outline">Products</div>
+              <div className="badge badge-outline">HTML</div>
+              <div className="badge badge-outline">CSS</div>
             </div>
           </div>
         </div>
@@ -28,13 +28,14 @@ export default function Work() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Shoes!
+              Twitter
               <div className="badge badge-secondary">NEW</div>
             </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>I have created a Twitter Clone</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Fashion</div>
-              <div className="badge badge-outline">Products</div>
+              <div className="badge badge-outline">NextJS</div>
+              <div className="badge badge-outline">TailwindCSS</div>
+              <div className="badge badge-outline">TypeScript</div>
             </div>
           </div>
         </div>
@@ -44,13 +45,13 @@ export default function Work() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">
-              Shoes!
+              Alexis Noukan
               <div className="badge badge-secondary">NEW</div>
             </h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>This is my personal portfolio</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Fashion</div>
-              <div className="badge badge-outline">Products</div>
+              <div className="badge badge-outline">React</div>
+              <div className="badge badge-outline">TailwindCSS</div>
             </div>
           </div>
         </div>

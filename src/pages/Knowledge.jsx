@@ -1,77 +1,68 @@
-import React from "react";
+import React from "react"
 
 export default function Knowledge() {
   return (
     <div id="Skills" className="min-h-screen">
       <div className="py-[10%] px-[10%] flex items-center flex-col gap-5">
-        <h2>My Skills</h2>
+        <h2 className="text-bold text-2xl">My Skills</h2>
         <div className="flex justify-between gap-5">
           <div className="flex flex-col gap-5 pt-5">
-            <progress
-              className="progress progress-secondary w-56"
-              value="50"
-              max="100"
-            ></progress>
-            <span>JavaScript</span>
+            <h2 className="text-bold text-xl">Framework</h2>
+            <span>Tailwind CSS</span>
             <progress
               className="progress progress-secondary w-56"
               value="10"
               max="100"
             ></progress>
-            <span>Tailwind CSS</span>
+            <span>NextJS</span>
+            <progress
+              className="progress progress-secondary w-56"
+              value="10"
+              max="100"
+            ></progress>
+            <span>React</span>
             <progress
               className="progress progress-secondary w-56"
               value="40"
               max="100"
             ></progress>
-            <span>HTML</span>
+            <span>NestJS</span>
             <progress
               className="progress progress-secondary w-56"
               value="70"
               max="100"
             ></progress>
-            <span>CSS</span>
-            <progress
-              className="progress progress-secondary w-56"
-              value="100"
-              max="100"
-            ></progress>
-            <span>HTML</span>
           </div>
           <div className="flex flex-col gap-5 pt-5">
+            <h2 className="text-bold text-xl">Language</h2>
+            <span>TypeScript / JavaScript</span>
             <progress
               className="progress progress-secondary w-56"
               value="50"
               max="100"
             ></progress>
-            <span>JavaScript</span>
-            <progress
-              className="progress progress-secondary w-56"
-              value="10"
-              max="100"
-            ></progress>
-            <span>Tailwind CSS</span>
-            <progress
-              className="progress progress-secondary w-56"
-              value="40"
-              max="100"
-            ></progress>
-            <span>HTML</span>
-            <progress
-              className="progress progress-secondary w-56"
-              value="70"
-              max="100"
-            ></progress>
-            <span>CSS</span>
+
+            <span>MongoDB</span>
             <progress
               className="progress progress-secondary w-56"
               value="100"
               max="100"
             ></progress>
             <span>HTML</span>
+            <progress
+              className="progress progress-secondary w-56"
+              value="40"
+              max="100"
+            ></progress>
+            <span>CSS</span>
+            <progress
+              className="progress progress-secondary w-56"
+              value="70"
+              max="100"
+            ></progress>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
