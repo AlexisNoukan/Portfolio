@@ -15,67 +15,71 @@ const Home = () => {
         <div className="  py-[10%] px-[10%]">
           <article className=" flex flex-col gap-3">
             <p className="text-3xl">Hi! I am</p>
-            <h1 className="font-bold text-8xl "> Alexis NOUKAN</h1>
-            <h2 className="text-5xl">A Fullstack Developper</h2>
+            <h1 className="font-bold text-6xl md:text-8xl "> Alexis NOUKAN</h1>
+            <h2 className="text-5xl">A Fullstack Software Developper</h2>
 
             <a
               href={CV}
               target="_blank"
               rel="noreferrer"
-              className="btn w-[20%] py-2 px-8 flex items-center space-x-4"
+              className="btn w-80 py-2 px-8 flex items-center space-x-4"
             >
               <ArrowDownTrayIcon className="h-7 w-7" />
               <span>Get my Resume</span>
             </a>
           </article>
         </div>{" "}
-        <div className="flex justify-center space-x-10">
-          <img
-            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
-            src={GitLab}
-            alt="GitLab"
-          />
-          <img
-            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
-            src={Next}
-            alt="NextJS"
-          />
-          <img
-            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
-            src={ReactIcon}
-            alt="React"
-          />
-          <img
-            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
-            src={Tailwind}
-            alt="TailwindCSS"
-          />
-          <img
-            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
-            src={Nest}
-            alt="NestJS"
-          />
-          <img
-            className="mask mask-squircle h-24 w-24 bg-slate-50 p-2"
-            src={Mongo}
-            alt="MongoDB"
-          />
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4  md:space-x-10 ">
+          <div className="flex gap-2">
+            <img
+              className="mask mask-squircle h-24 w-24 bg-white p-2"
+              src={GitLab}
+              alt="GitLab"
+            />
+            <img
+              className="mask mask-squircle h-24 w-24 bg-white p-2"
+              src={Next}
+              alt="NextJS"
+            />
+            <img
+              className="mask mask-squircle h-24 w-24 bg-white p-2"
+              src={ReactIcon}
+              alt="React"
+            />
+          </div>
+          <div className="flex gap-2">
+            <img
+              className="mask mask-squircle h-24 w-24 bg-white p-2"
+              src={Tailwind}
+              alt="TailwindCSS"
+            />
+            <img
+              className="mask mask-squircle h-24 w-24 bg-white p-2"
+              src={Nest}
+              alt="NestJS"
+            />
+            <img
+              className="mask mask-squircle h-24 w-24 bg-white p-2"
+              src={Mongo}
+              alt="MongoDB"
+            />
+          </div>
         </div>
       </section>{" "}
       <section
         id="Do"
-        className=" flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] w-[100%] px-[10%]"
+        className=" flex flex-col justify-center gap-4 items-center min-h-screen py-[10%] md:w-[100%] md:px-[10%] m-2"
       >
         <h2 className="text-3xl">What can I do ?</h2>
 
-        <div className="flex justify-center gap-2 text-slate-600 ">
-          <div className="card w-96  shadow-xl bg-white">
+        <div className="flex flex-wrap justify-center gap-2 text-slate-600 ">
+          <div className="card w-80 md:96  shadow-xl bg-white">
             <div className="card-body">
               <h2 className="card-title">Front end Developpement</h2>
               <p>II make all the front end with React and Tailwind CSS.</p>
             </div>
           </div>
-          <div className="card w-96  shadow-xl bg-white">
+          <div className="card w-80 md:96  shadow-xl bg-white">
             <div className="card-body">
               <h2 className="card-title">Wed Design (A little)</h2>
               <p>
@@ -84,7 +88,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96  shadow-xl bg-white">
+          <div className="card w-80 md:96  shadow-xl bg-white">
             <div className="card-body">
               <h2 className="card-title">Back end Developpement</h2>
               <p>
@@ -97,7 +101,7 @@ const Home = () => {
         </div>
         <div className="pt-5 flex justify-center w-[30%]">
           <a href="#Project">
-            <div className=" btn py-2 px-8  p-1 text-center ">
+            <div className=" btn py-2 px-8  p-1 text-center w-80  ">
               <span>Project</span>
             </div>
           </a>

@@ -8,7 +8,7 @@ const AboutMe = () => {
         <div className="hero-content flex-col lg:flex-row">
           <img
             src={Picture}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="md:max-w-sm rounded-lg shadow-2xl"
             alt="me"
           />
           <div>
@@ -18,7 +18,9 @@ const AboutMe = () => {
               <br />I am Alexis a Fullstack Software Developper.
               <br />I am passionate about nexw technologie ang programing.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <a href="#Contact" className="btn btn-primary w-80">
+              Contact
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React from "react"
 
-
 export default function Footer() {
   return (
     <footer className="footer items-center p-4 bg-neutral text-neutral-content">
@@ -18,7 +17,7 @@ export default function Footer() {
         </svg>
         <p>Copyright © 2023 - All right reserved</p>
       </div>
-      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end items-center">
+      <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end justify-center items-center">
         <a target="_blank" href="https://github.com/AlexisNoukan">
           <svg
             xmlns="http://www.w3.org/2000/svg"

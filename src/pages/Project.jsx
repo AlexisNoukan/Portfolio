@@ -10,8 +10,8 @@ export default function Work() {
       className="min-h-screen flex flex-col justify-center items-center"
     >
       <h2 className="text-bold text-2xl">Projects</h2>
-      <div className="py-[10%] px-[10%] flex flex-col lg:flex-row justify-center items-center gap-10">
-        <div className="card w-96 bg-base-200 shadow-xl">
+      <div className="py-[10%] md:px-[10%] flex flex-col lg:flex-row justify-center items-center gap-10">
+        <div className="card w-80 md:96  bg-base-200 shadow-xl">
           <figure>
             <img src={Bookie} alt="Bookie" />
           </figure>
@@ -27,7 +27,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-200 shadow-xl">
+        <div className="card w-80 md:96  bg-base-200 shadow-xl">
           <figure>
             <img src={Twitter} alt="Twitter Clone" />
           </figure>
@@ -44,7 +44,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="card w-96 bg-base-200 shadow-xl ">
+        <div className="card w-80 md:96 bg-base-200 shadow-xl ">
           <figure>
             <img src={Portfolio} alt="Personal Portfolio" />
           </figure>
