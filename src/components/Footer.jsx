@@ -21,7 +21,7 @@ export default function Footer() {
         <a
           target="_blank"
           href="https://github.com/AlexisNoukan"
-          rel="noopener"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export default function Footer() {
         <a
           href="https://gitlab.com/AlexisNoukan"
           target="_blank"
-          rel="noopener"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function Footer() {
         <a
           target="_blank"
           href="https://www.linkedin.com/in/alexis-noukan-6b8b5420b/"
-          rel="noopener"
+          rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
